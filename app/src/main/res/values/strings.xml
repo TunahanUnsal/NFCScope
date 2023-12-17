@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Template Project</string>
+    <string name="app_name">NFC Scope</string>
+    <string name="button_read">Read NFC Card</string>
+    <string name="button_copy">Copy NFC Card</string>
+    <string name="button_write">Write</string>
+    <string name="button_save">Save</string>
+    <string name="nfc_text">Please place the NFC card close to the back of your phone and hold it steady</string>
 </resources>

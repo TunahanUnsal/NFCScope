@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.project'
+    namespace 'com.ezdream.nfc'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.project"
+        applicationId "com.ezdream.nfc"
         minSdk 24
         targetSdk 34
         versionCode 1
@@ -68,6 +68,8 @@ dependencies {
     implementation libs.appcompat
     implementation libs.material
     implementation libs.android.gif.drawable
+    implementation libs.circle.menu
+    implementation 'com.github.tejmagar:AndroidWiFiTools:1.0.2'
     testImplementation libs.junit
     androidTestImplementation libs.androidx.test.ext.junit
     androidTestImplementation libs.espresso.core
